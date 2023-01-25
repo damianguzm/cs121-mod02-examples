@@ -1,0 +1,85 @@
+Test Results for ConversionFun.java
+
+-Add code to output Volume 3  
+Result: Build succeeded. volume1 and volume3 had the same output because  
+volume3 had parenthesis around the 4/3 causing it to be evaluated first just
+as if it had been in the front with no parenthesis.
+
+-Add code to output Volume 4
+Result: Build succeeded. volume4 evaluated to 0.42441354006516874. As a  
+result of the (3 * PI), it will be evaluated first then the 4 is divided by the  
+product and so on.
+
+
+Test Results for CookieFun.java
+
+-Update the cookiesPerFriend expression
+Result: Build failed. The code was not able to be outputted because  
+the variable cookiesPerFriend is uncapable of being assigned to the double number that   
+is computed without declaring it a double variable first.
+
+
+Test Results for Geometry.java
+
+-Change the declaration for sides for sides from an int to a double  
+Result: Build succeeded. Instead of outputting integer numbers  
+like 7, 10, 12. It outputted double numbers like 7.0, 10.0, 12.0. This is because  
+we declared sides a double variable.  
+
+-Modify sides from double to final operator  
+Result: Build failed. The problem states the final local variable   
+sides cannot be assigned. It must be blank and not using a compound assignment.  
+
+
+Test Results for PianoKes.java  
+
+-Modify keys from int to final operator  
+Result: Build succeeded. There was no change caused to the code except that  
+the integer number 88 is permanently assigned to the variable keys.
+
+
+Test Results for Lincoln.java
+
+-Declare a variable called quote to hold a string value
+Result: Build succeeded. Nothing happened when I declared quote a string  
+because it has not been assigned to anything.
+
+-Initialize the quot evariable using the existing text
+Result: Build succeeded. Again nothing changed except we assigned the variable  
+to a string literal.
+
+-Update the finalln() statement to use the string variable instead of the variable  
+Result: Build succeeded. Because we assigned the variable quote to a string literal    
+we were able to use quote in the System.out.println statement.
+
+
+Test Results for Facts.java  
+
+-Declare a variable called dialingCode to hold a int value  
+Result: Build succeeded. The variable dialingCode was not used.
+
+-Initialize the dialCode variable  
+Result: Build succeeded. The variable was still not used however it was initialized.
+
+-Update the final println() statement to use the int variable instea of the hardcoded value  
+Result: Build succeeded. The variable dialCode was used in the System.out.println statement after being initialized. 
+
+
+Test Results for Echo.java
+
+-Modify the line that reads input using the nextLine() scanner method to use the next() scanner.
+Result: Build succeded. When I changed the nextLine() to next() the code only output the first word I typed.
+
+
+Test Results for Milage.java
+
+-Enter 12 for number of miles
+Result: Build failed. The reason it failed is because the variable miles was declared an int variable and I inputted  
+a double number. 
+
+-Enter two for gallons of fuel
+Result: Build failed. The variable gallons is declared a double variable and I entered a string literal so it was unable to be assigned  
+to the variable.
+
+-Enter 12 for miles and enter 2 for gallons of fuel
+Result: Build succeeded. The result was 6 miles per gallon because we entered the correct input that was able to be processed. 
